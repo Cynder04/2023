@@ -1,0 +1,156 @@
+
+.bg{
+   background-image: url(sky.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+   color: rgb(33, 106, 179);
+   height:1000px;
+}
+.lama{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+.spanlama{
+    animation-name: duaterbang;
+    animation-duration: 5s;
+    display: flex;
+    position: relative;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes duaterbang{
+    from{
+        top: 0px;
+        right: 0px;
+    }
+    to{
+        top: -400px;
+        right: 0px;
+    }
+}
+.balon{
+    color: aqua;
+    word-spacing: 20px;
+}
+.newyear{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 90px;
+    animation-duration: 20s;
+    position: relative;
+    animation-name: example;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+@keyframes example{
+    from{
+    bottom: 180px;
+    left: 20px;
+}
+to{
+    bottom: 0px;
+    left: 0px;
+}
+}
+.newyear h2{
+    font-weight: 900;
+    font-size: 50px;   
+}
+.balon{
+    align-items:  center;
+    display: flex;
+    justify-content: flex-end;
+    animation-name: baloon;
+    animation-duration: 10s;
+    position: relative;
+    bottom: 200px;
+    animation-fill-mode: forwards;
+}
+@keyframes baloon{
+    0%{
+        top: 75px;
+        right: 0px;
+    }
+    50%{
+        right: 656px;
+        top: 75px;
+    }
+    100%{
+        right: 656px;
+        top: -200px;
+    }
+}
+.baru{
+    justify-content: flex-end;
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    animation-name: spanbaru;
+    animation-duration: 5s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes spanbaru{
+    from{
+        bottom: 75px;
+        right: 0px;
+        
+    }
+    to{
+        right: 656px;
+        bottom: 75px;
+    }
+}
+.petasan1 {
+    top: 400px;
+    position: relative;
+    justify-content: space-between;
+    display: flex;   
+    animation-name: petas1;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay:6s ;
+}
+@keyframes petas1{
+    from{
+        top: 290px;
+        right: 0px;
+    }
+    to{
+        top: -110px;
+        right: 0px;
+
+    }
+}
+.petasan2{
+    top: 300px;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    animation-name: petas2;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-delay:6s ;
+}
+@keyframes petas2{
+    from{
+        top: 290px;
+        right: 0px;
+    }
+    to{ 
+        top: -95px;
+        right: 0px;
+
+    }
+}
+
+
